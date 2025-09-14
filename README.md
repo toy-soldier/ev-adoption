@@ -4,13 +4,13 @@
 
 ---
 
-## Executive Summary
+## Executive Summary  
 
-Governments are betting billions on electric vehicles as a climate solution. But are EVs truly lowering emissions at scale?  
+Governments are investing billions in electric vehicles as a climate solution. But are EVs truly reducing emissions at scale?  
 
 This dashboard shows that **EV adoption alone doesn’t guarantee lower CO₂ emissions**. Countries with clean electricity grids (e.g., Norway, Sweden) achieve major reductions, while fossil-heavy grids (e.g., China, US, Australia) cancel out much of the benefit.  
 
-The conclusion is clear: **EVs only deliver on their promise when paired with clean energy grids.**
+The takeaway is clear: **EVs only deliver on their promise when paired with clean energy grids.**  
 
 ---
 
@@ -167,9 +167,15 @@ This highlights that **industrial structure matters too**, not just EVs and rene
 
 ---
 
-## Next Steps
+## Conclusion  
 
-A natural extension would be to break down renewable sources (solar, hydro, wind) to see which drive the largest reductions. While this analysis stays high-level, it points toward where deeper country-specific insights could be valuable.  
+Electric vehicles are **not a silver bullet** for reducing CO₂ emissions.  The data shows that EV adoption only delivers significant emission reductions when paired with a **clean electricity grid**.  
+
+For policymakers, the implication is clear: focus not only on accelerating EV adoption but also on **decarbonizing the grid**. Renewable energy is one path, but it’s not the only one. Countries like France demonstrate that **nuclear power** can also provide a low-carbon backbone.  
+
+## Next Steps  
+
+This analysis highlights the big picture, but it also opens the door for deeper exploration. A natural extension would be to break down renewables by source (solar, wind, hydro) to see which contribute most to emission reductions. While outside the scope of this dashboard, such analysis could guide **country-specific policy choices** on where to invest for maximum impact.  
 
 ---
 
