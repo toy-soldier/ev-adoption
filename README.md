@@ -65,6 +65,8 @@ I classified countries into three tiers based on renewable energy share:
 
 This tiering provides a simple, transparent way to compare EV adoption against emissions outcomes across grids with very different levels of renewable penetration.
 
+*Note: The thresholds (70%, 40%) were chosen as intuitive cutoffs to group countries into high, medium, and low renewable adoption. These breakpoints are not absolute, but they simplify comparison and align with how energy analysts often frame renewable penetration levels.*
+
 ---
 
 ## Tools & Skills
