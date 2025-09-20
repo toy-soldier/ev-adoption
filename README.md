@@ -47,13 +47,27 @@ Data sources included:
 
 ![Datasets used](assets/datasets.png)
 
+Data on EV sales was for 30 countries.  I then cleaned and normalized the other datasets to those same countries to ensure comparability across countries and years.
+
 ### Decluttering Steps
 
 The project combines four datasets. To keep the analysis clear:
 
-- **Step 1:** I focused on **10 Anchor countries** (Australia, Canada, China, Germany, Japan, Netherlands, Norway, Sweden, United Kingdom, United States) while grouping the **Other 20** as background context.
+- **Step 1:** I focused on **10 Anchor countries** while grouping the **Other 20** as background context.
 
 - **Step 2:** I refined scatter plot visuals so anchors scale with **true population**, while the Other 20 appear as smaller dots. This way, all 30 countries stay visible, but anchors drive the narrative.  
+
+### Anchor Country Selection
+
+At first, I considered using the **top 10 EV adopters** worldwide. However, 9 of those 10 countries are European, which would have made the analysis feel too Eurocentric. To keep the project both **data-driven and globally balanced**, I adjusted the selection.
+
+The final 10 anchors include:
+
+- **European leaders** (Norway, Sweden, Netherlands, United Kingdom)
+- **Major economies** (United States, China, Japan)
+- **Global balance** through other regions (Brazil, Israel, Australia)
+
+This broader mix avoids a narrow European lens while still showcasing top EV adopters.
 
 ### Renewable Energy Tiering
 
@@ -105,7 +119,7 @@ I charted EV adoption vs CO₂ emissions per capita to try to find a correlation
 
 ![EV vs CO₂ scatter (anchors + others, gray)](assets/ev-vs-co2.png)
 
-Three of the anchors (Australia, Canada, United States) clustered at the top left, corresponding to low EV adoption/high CO₂ emissions.  There are also a few dots, including 2 of the anchors (Norway and Sweden) on the bottom right, corresponding to high EV adoption/low CO₂ emissions.  Given the premise that higher EV adoption leads to lower CO₂ emissions, these findings are expected.
+Two of the anchors (Australia, United States) clustered at the top left, corresponding to low EV adoption/high CO₂ emissions.  There are also a few dots, including two of the anchors (Norway and Sweden) on the bottom right, corresponding to high EV adoption/low CO₂ emissions.  Given the premise that higher EV adoption leads to lower CO₂ emissions, these findings are expected.
 
 It is a bit surprising to find a cluster of dots at the lower left (low EV adoption/low CO₂ emissions), Iceland close to the upper right (high EV adoption/high CO₂ emissions) and China right in the middle.  Even with relatively high EV adoption, its CO₂ emissions are still above average.
 
@@ -123,7 +137,7 @@ I charted the renewable energy share of the total energy produced vs. CO₂ emis
 
 ![Renewables vs CO₂ scatter](assets/renewable-vs-co2.png)
 
-Most countries gravitate toward the lower-right (high renewable share, low CO₂). This suggest that greater renewable energy adoption generally leads to lower emissions.  
+Most countries gravitate toward the lower-right (high renewable share, low CO₂). This suggests that greater renewable energy adoption generally leads to lower emissions.  
 
 ---
 
@@ -171,13 +185,18 @@ This highlights that **industrial structure matters too**, not just EVs and rene
 
 ## Conclusion  
 
-Electric vehicles are **not a silver bullet** for reducing CO₂ emissions.  The data shows that EV adoption only delivers significant emission reductions when paired with a **clean electricity grid**.  
+This analysis shows that EV adoption is **not a silver bullet** for reducing CO₂ emissions. What really matters is the **cleanliness of the electricity grid**.
 
-For policymakers, the implication is clear: focus not only on accelerating EV adoption but also on **decarbonizing the grid**. Renewable energy is one path, but it’s not the only one. Countries like France demonstrate that **nuclear power** can also provide a low-carbon backbone.  
+- In **Norway** and **Sweden**, renewables + EVs drive strong reductions.
+- In **France**, nuclear power keeps emissions low even without heavy reliance on renewables.
+- In **Brazil**, emissions are low despite limited EV adoption, thanks to its renewable-heavy grid.
+- In **China** and the **U.S.**, growing EV adoption is undermined by fossil-heavy grids.
+
+The lesson: **EVs only deliver real climate benefits when paired with low-carbon energy — whether that’s renewables, nuclear, or other clean technologies**.
 
 ## Next Steps  
 
-This analysis highlights the big picture, but it also opens the door for deeper exploration. A natural extension would be to break down renewables by source (solar, wind, hydro) to see which contribute most to emission reductions. While outside the scope of this dashboard, such analysis could guide **country-specific policy choices** on where to invest for maximum impact.  
+This analysis highlights the big picture, but it also opens the door for deeper exploration. A natural extension would be to break down clean grids by source (solar, wind, etc) to see which contribute most to emission reductions. While outside the scope of this dashboard, such analysis could guide **country-specific policy choices** on where to invest for maximum impact.  
 
 ---
 
@@ -198,3 +217,5 @@ Our World in Data - *Population* [https://ourworldindata.org/grapher/population]
 OECD - *OECD Economic Surveys: Iceland 2025* [https://www.oecd.org/en/publications/oecd-economic-surveys-iceland-2025_890dbe05-en.html]
 
 Global Energy - *Brazil becomes G20 leader in terms of renewables share in energy mix* [https://globalenergyprize.org/en/2024/07/19/brazil-becomes-g20-leader-in-terms-of-renewables-share-in-energy-mix/]
+
+World Nuclear Association - *Nuclear Power in France* [https://world-nuclear.org/information-library/country-profiles/countries-a-f/france]
