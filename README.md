@@ -183,7 +183,7 @@ From visual inspection: red (Tier 3) countries cluster in the upper left (low EV
 | China         |        38.0          |               8.37             |           30.61           |
 | Israel        |        17.0          |               6.43             |           10.51           |
 | Japan         |         3.5          |               7.95             |           22.06           |
-| Netherlands   |        44.0          |               6.56             |           47.03           |
+| Netherlands   |        44.0          |               6.56             |           47.30           |
 | Norway        |        90.0          |               7.05             |           98.47           |
 | Sweden        |        60.0          |               3.46             |           69.48           |
 | United Kingdom|        24.0          |               4.44             |           47.33           |
